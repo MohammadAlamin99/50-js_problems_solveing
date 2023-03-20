@@ -67,3 +67,5 @@ function fahrenheitToCelsius(n) {
 
 var r = fahrenheitToCelsius(68);
 console.log(r);
+
+// ============
