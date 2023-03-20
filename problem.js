@@ -15,19 +15,18 @@
 // }
 
 // challange no 4: Print all the multiplication tables with numbers from 1 to 10 ✔✔
-// for (var i = 1; i <= 10; i++) {
+
+// for(var i=1; i<=10; i++){
 //     printTable(i);
 //     console.log("");
 // }
 
-// function printTable(n) {
-//     for (var i = 1; i <= 10; i++) {
-//         var row = n + " * " + i + " = " + n * i;
-//         console.log(row);
+// function printTable(n){
+//     for(var i=1; i<=10; i++){
+//         var result = n + " * " + i + " = " + n * i;
+//         console.log(result);
 //     }
 // }
-
-
 
 // Coding challenge #5: Calculate the sum of numbers from 1 to 10
 // var sum = 0;
@@ -61,11 +60,26 @@
 // console.log(result);
 
 // Coding challenge #9: Create a function that will convert from Fahrenheit to Celsius
-function fahrenheitToCelsius(n) {
-    return (n - 32) / 1.8;
-}
+// function fahrenheitToCelsius(n) {
+//     return (n - 32) / 1.8;
+// }
 
-var r = fahrenheitToCelsius(68);
-console.log(r);
+// var r = fahrenheitToCelsius(68);
+// console.log(r);
 
-// ============
+
+// Coding challenge #10: Calculate the sum of numbers in an array of numbers
+
+// var arry=[12,45,32,12,52,45,87,200];
+
+// function calculateArryNumber(ar){
+//     sum = 0
+//     for(var i=0; i<ar.length; i++){
+//         sum = sum + ar[i];
+//     }
+//     return sum;
+// }
+// var result = calculateArryNumber(arry);
+// console.log(result);
+
+
