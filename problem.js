@@ -83,3 +83,88 @@
 // console.log(result);
 
 
+// Coding challenge #11: Calculate the average of the numbers in an array of numbers
+
+// function averageArray(ar){
+//     var n=ar.length;
+//     var sum = 0;
+//     for(var i=0; i<n; i++){
+//         sum=sum + ar[i];
+//     }
+//     return (sum/n).toFixed(3);
+// }
+// var arry = [12, 25, 48];
+// var result = averageArray(arry);
+// console.log(result);
+
+
+
+// const str ="3.4";
+// const result = parseFloat(str);
+// console.log(result);
+
+
+// var result = 5*(2+18);
+// console.log(result);
+
+
+// Coding challenge #12: Create a function that receives an array of numbers and returns an array containing only the positive numbers
+
+// function getPositive(ar) {
+//     var arry2 = [];
+//     for (var i = 0; i <= ar.length; i++) {
+//         var element = ar[i];
+//         if (element >= 0) {
+//             arry2.push(element);
+//         }
+//     }
+//     return arry2;
+// }
+// var arry = [12, 56, 787, 45, -88 - 83, -6, 85]
+// var result = getPositive(arry);
+// console.log(result);
+
+
+
+// Coding challenge #13: Find the maximum number in an array of numbers
+
+// var arry = [12, 15, 48, 70, 13, 90];
+
+// function findMax(ar){
+//     var max = ar[0];
+//     for(var i=0; i<ar.length; i++){
+//         if(ar[i]>max){
+//             max=ar[i];
+//         }
+//     }
+//     return max;
+// }
+// var result = findMax(arry);
+// console.log(result,"max")
+
+
+// Coding challenge #14: Print the first 10 Fibonacci numbers without recursion
+// var f1 = 0;
+// console.log(f1);
+// var f2 = 1;
+// console.log(f2);
+// for (var i = 2; i <= 10; i++) {
+//     var fi = f1 + f2;
+//     console.log(fi)
+
+//     f1=f2;
+//     f2=fi;
+// }
+
+// Coding challenge #15: Create a function that will find the nth Fibonacci number using recursion
+ function recurFibo(n){
+    if(n==0){
+        return 0;
+    }
+    if(n==1){
+        return 1;
+    }
+    return recurFibo(n-1) + recurFibo(n-2);
+ }
+ var result = recurFibo(8);
+ console.log(result)
