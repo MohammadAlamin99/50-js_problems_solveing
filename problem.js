@@ -157,14 +157,32 @@
 // }
 
 // Coding challenge #15: Create a function that will find the nth Fibonacci number using recursion
- function recurFibo(n){
-    if(n==0){
-        return 0;
+//  function recurFibo(n){
+//     if(n==0){
+//         return 0;
+//     }
+//     if(n==1){
+//         return 1;
+//     }
+//     return recurFibo(n-1) + recurFibo(n-2);
+//  }
+//  var result = recurFibo(8);
+//  console.log(result);
+
+
+// Returns true if a number is prime
+
+function primeNum(n) {
+    if (n <= 1) {
+        return "this num is not prime";
     }
-    if(n==1){
-        return 1;
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+        if (n % i == 0) {
+            return "this number is not prime";
+        }
     }
-    return recurFibo(n-1) + recurFibo(n-2);
- }
- var result = recurFibo(8);
- console.log(result)
+    return "this number is prime";
+}
+
+var result = primeNum(5);
+console.log(result);
